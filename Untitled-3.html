@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website - Portfolio</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">nanggWeb</a>
+                </div>
+                <div class="theme-toggle">
+                    <button class="theme-toggle-btn" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-text-line">Selamat Datang di</span>
+                    <span class="hero-text-line hero-highlight">Website Saya</span>
+                </h1>
+                <p class="hero-description">
+                    Kami menciptakan pengalaman digital yang luar biasa dengan desain modern 
+                    dan teknologi terdepan untuk menghadirkan solusi terbaik bagi Anda.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-content">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Modern & Responsive</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Kami</h2>
+                <p class="section-subtitle">Menghadirkan inovasi dalam setiap karya</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Kreativitas Bertemu Teknologi</h3>
+                    <p>
+                        Kami adalah tim kreatif yang berdedikasi untuk menciptakan pengalaman digital 
+                        yang memukau. Dengan kombinasi desain yang elegan dan teknologi modern, 
+                        kami menghadirkan solusi yang tidak hanya indah dipandang, tetapi juga 
+                        fungsional dan user-friendly.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Proyek Selesai</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Klien Puas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Tahun Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Inovasi</h4>
+                        <p>Selalu menggunakan teknologi terbaru untuk hasil yang optimal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Layanan Kami</h2>
+                <p class="section-subtitle">Solusi lengkap untuk kebutuhan digital Anda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Desain antarmuka yang intuitif dan pengalaman pengguna yang memukau</p>
+                    <ul class="service-features">
+                        <li>Wireframing & Prototyping</li>
+                        <li>User Research</li>
+                        <li>Visual Design</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Pengembangan website modern yang responsif dan optimized</p>
+                    <ul class="service-features">
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>CMS Integration</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App</h3>
+                    <p>Aplikasi mobile yang powerful dan user-friendly</p>
+                    <ul class="service-features">
+                        <li>iOS Development</li>
+                        <li>Android Development</li>
+                        <li>Cross-platform</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategi pemasaran digital untuk meningkatkan brand awareness</p>
+                    <ul class="service-features">
+                        <li>SEO Optimization</li>
+                        <li>Social Media</li>
+                        <li>Content Strategy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="section-subtitle">Mari diskusikan proyek Anda bersama kami</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Alamat</h4>
+                            <p>Jl. BAJA No. 12 PPI<br>Gresik, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 812 3136 8799</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>dpraja620@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subjek" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Kirim Pesan</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernWeb</h3>
+                    <p>Menciptakan pengalaman digital yang luar biasa dengan teknologi terdepan.</p>
+                    <div class="social-links">
+                        <a href="https://www.tiktok.com/@nanggxd_" target="_blank" class="social-link" title="TIkTok"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Nanggxd7" target="_blank" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nangg.arpk21/?hl=en" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/danang-prajadinata-89ab84354/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/nangg22" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile App</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan update terbaru dari kami</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; danang22 2025 ModernWeb. Semua hak cipta dilindungi.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Untitled-4.js"></script>
+</body>
+</html>
